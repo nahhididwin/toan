@@ -51,7 +51,7 @@ $$\frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2} \cdot \frac{1}{x^{\frac{1}{2}}} = \f
 
 
 
-General Pattern :
+General Pattern (căn bậc 2) :
 
 $$f^{(n)}(x) = \frac{(-1)^{n-1} \cdot (2n-3)!!}{2^n} x^{-\frac{2n-1}{2}}$$
 
