@@ -43,6 +43,8 @@ $$\sqrt{x} \longrightarrow \left(x^{\frac{1}{2}}\right)' = \frac{1}{2}x^{-\frac{
 
 Dùng trực tiếp Quy tắc lũy thừa (Power Rule) tổng quát: $(x^n)' = n \cdot x^{n-1}$. 
 
+Còn nếu là căn bậc lớn hơn 2 (kiểu như căn bậc 3) thì cứ 1/3, 1/4,..v.v
+
 Chứng minh :
 
 $$\frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2} \cdot \frac{1}{x^{\frac{1}{2}}} = \frac{1}{2\sqrt{x}}$$ (Q.E.D)
