@@ -33,6 +33,28 @@ Dạy học sinh in "5 bước thần thánh" này lên đầu mọi bài:
 
 **Quy tắc đại số:** $(u\pm v)' = u'\pm v'$; $(uv)' = u'v+uv'$; $\left(\dfrac{u}{v}\right)' = \dfrac{u'v-uv'}{v^2}$.
 
+**Một số mẹo tuyệt vời:**
+
+**Quy tắc "căn" :**
+
+Thực tế, ở quy tắc $\sqrt{x}$, ta biết thừa rằng nó thực sự phức tạp khi phải chuyển về $\dfrac{1}{2\sqrt{x}}$; Đặc biệt, khi tính đạo hàm bậc 2 hoặc cao hơn, ngày càng thấy được sự phiền toái của nó. Vậy nên ta có thể áp dụng quy tắc này :
+
+$$\sqrt{x} \longrightarrow \left(x^{\frac{1}{2}}\right)' = \frac{1}{2}x^{-\frac{1}{2}}$$
+
+Dùng trực tiếp Quy tắc lũy thừa (Power Rule) tổng quát: $(x^n)' = n \cdot x^{n-1}$. 
+
+Chứng minh :
+
+$$\frac{1}{2}x^{-\frac{1}{2}} = \frac{1}{2} \cdot \frac{1}{x^{\frac{1}{2}}} = \frac{1}{2\sqrt{x}}$$ (Q.E.D)
+
+
+
+General Pattern :
+
+$$f^{(n)}(x) = \frac{(-1)^{n-1} \cdot (2n-3)!!}{2^n} x^{-\frac{2n-1}{2}}$$
+
+
+
 ### A2. Thuật toán ĐẠO HÀM HÀM HỢP (chain rule) — quy trình 3 bước cứng
 
 Cho $y = f(u(x))$:
