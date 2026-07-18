@@ -39,6 +39,8 @@ Dạy học sinh in "5 bước thần thánh" này lên đầu mọi bài:
 
 Thực tế, ở quy tắc $\sqrt{x}$, ta biết thừa rằng nó thực sự phức tạp khi phải chuyển về $\dfrac{1}{2\sqrt{x}}$; Đặc biệt, khi tính đạo hàm bậc 2 hoặc cao hơn, ngày càng thấy được sự phiền toái của nó. Vậy nên ta có thể áp dụng quy tắc này :
 
+$$\sqrt[m]{x^k} \longrightarrow x^{\frac{k}{m}}$$ ;
+
 $$\sqrt{x} \longrightarrow \left(x^{\frac{1}{2}}\right)' = \frac{1}{2}x^{-\frac{1}{2}}$$
 
 Dùng trực tiếp Quy tắc lũy thừa (Power Rule) tổng quát: $(x^n)' = n \cdot x^{n-1}$. 
