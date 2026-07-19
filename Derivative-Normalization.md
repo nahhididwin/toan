@@ -144,6 +144,8 @@ Công thức lõi: $(\ln x)' = x^{-1}$
 
 1. Đối với $\sin x$ và $\cos x$:
 
+(Tùy bạn, nếu bạn nghĩ hợp với cách này thì dùng, còn không thì cứ dùng cách truyền thống)
+
 
 Việc đạo hàm thực chất chỉ là việc dịch chuyển đồ thị về bên trái một góc $\frac{\pi}{2}$.
 
@@ -184,6 +186,8 @@ $$\Longrightarrow y^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$$
 
 
 2. Đối với $\tan x$ và $\cot x$:
+
+(Cái này thì được cho phép dùng trực tiếp)
 
 Autonomous Form:
 
