@@ -64,7 +64,26 @@ Tuy nhiên, thực tế dù đã đơn giản hơn, nhưng nó vẫn quá phức
 
 **Nếu chấp nhận sử dụng những kỹ thuật "lạ" hơn nữa thì bạn có thể đọc tiếp, tôi có cung cấp 1 giải pháp khác :**
 
-...
+**CHUYỂN DẠNG ĐƯỜNG THẲNG :**
+
+ta đưa nó về phương trình tích phẳng:
+
+$$f(x) = \frac{u}{v} \Longrightarrow f \cdot v = u$$
+
+Lúc này, thay vì đi đạo hàm một phân số, ta đi đạo hàm cấp $n$ cho cả hai vế của một phép nhân. Công thức Leibniz tổng quát cho phép nhân là một đường thẳng phẳng (tuyến tính) sử dụng tổ hợp $\binom{n}{k}$, tương tự như nhị thức Newton:
+
+$$(f \cdot v)^{(n)} = u^{(n)} \Longrightarrow \sum_{k=0}^n \binom{n}{k} f^{(k)} v^{(n-k)} = u^{(n)}$$
+
+Tách riêng số hạng chứa đạo hàm bậc cao nhất $f^{(n)}$ cần tìm (tương ứng với $k=n$), ta có:
+
+$$f^{(n)} \cdot v + \sum_{k=0}^{n-1} \binom{n}{k} f^{(k)} v^{(n-k)} = u^{(n)}$$
+
+**Tổng quát :**
+
+Rút $f^{(n)}$ ra, ta được :
+
+$$f^{(n)} = \frac{1}{v} \left[ u^{(n)} - \sum_{k=0}^{n-1} \binom{n}{k} f^{(k)} v^{(n-k)} \right]$$
+
 
 
 
