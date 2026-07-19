@@ -57,6 +57,7 @@ General Pattern (căn bậc 2) :
 
 $$f^{(n)}(x) = \frac{(-1)^{n-1} \cdot (2n-3)!!}{2^n} x^{-\frac{2n-1}{2}}$$
 
+Nếu bạn thấy hứng thú với những thứ như vậy, có thể thử tham khảo : https://github.com/nahhididwin/toan/blob/main/Derivative-Normalization.md
 
 
 ### A2. Thuật toán ĐẠO HÀM HÀM HỢP (chain rule) — quy trình 3 bước cứng
