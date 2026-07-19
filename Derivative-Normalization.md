@@ -17,6 +17,52 @@ Lợi thế khi đạo hàm bậc cao ($n$):
 
 $$f^{(n)}(x) = \alpha(\alpha-1)(\alpha-2)...(\alpha-n+1)x^{\alpha-n}$$
 
+# PHÉP CHIA/PHÂN SỐ THÀNH PHÉP NHÂN
+
+
+
+Bằng cách áp dụng (nhân nghịch đảo tương đương với phép chia) $G_1 \cdot \frac{1}{G_2} = G_1 \cdot G_2^{-1}$, cấu trúc phân số $\frac{u}{v}$ sẽ được chuẩn hóa thành:
+
+$$\frac{u}{v} \longrightarrow u \cdot v^{-1}$$
+
+Lúc này, bạn có thể sử dụng :
+
+Quy tắc tích (Product Rule): $(f \cdot g)' = f'g + fg'$
+
+Quy tắc lũy thừa tổng quát (Power + Chain Rule): $(v^{-1})' = -1 \cdot v^{-2} \cdot v'$
+
+
+Thì :
+
+$$(u \cdot v^{-1})' = u' \cdot v^{-1} + u \cdot (-v^{-2} \cdot v')$$
+
+Hãy tưởng tượng bạn phải tính đạo hàm bậc 2 hoặc bậc 3 của một phân số, 
+
+
+Nếu dùng công thức phân số truyền thống: Sau lần đạo hàm thứ nhất, bạn có một phân số mới cồng kềnh hơn. Đạo hàm lần 2, mẫu số sẽ lên mũ 4 ($v^4$), tử số là một mớ hỗn độn của quy tắc tích và hiệu. Ta sẽ phải tốn công kha khá để rút gọn, quy đồng;
+
+
+Nếu dùng dạng chuẩn hóa $u \cdot v^{-1}$: Bạn luôn duy trì bài toán ở dạng đa thức tuyến tính. Khi đạo hàm các bậc tiếp theo, bạn chỉ việc dùng chuỗi toán tử nhân và hạ bậc.
+
+Ex : 
+
+Tính đạo hàm bậc 2 của $f(x) = \frac{1}{x^2 + 1}$
+
+$$f(x) = (x^2 + 1)^{-1}$$
+
+=> $$f'(x) = -1 \cdot (x^2 + 1)^{-2} \cdot (x^2 + 1)' = -2x \cdot (x^2 + 1)^{-2}$$
+
+=> $$f''(x) = (-2x)' \cdot (x^2 + 1)^{-2} + (-2x) \cdot \left[(x^2 + 1)^{-2}\right]'$$
+
+$$= -2(x^2 + 1)^{-2} + (-2x) \cdot \left[-2(x^2 + 1)^{-3} \cdot 2x\right]$$
+
+$$= -2(x^2 + 1)^{-2} + 8x^2(x^2 + 1)^{-3}$$
+
+
+
+
+
+
 # CHUẨN HÓA MŨ VÀ LOGARIT (SIÊU VIỆT)
 
 Trong giải tích, cơ số tự nhiên $e$ là cơ sở duy nhất. Các cơ số $a$ bất kỳ chỉ là một lớp "ngụy trang" của $e$. Việc nhớ đạo hàm của $a^x$ hay $\log_a x$ là dư thừa.
