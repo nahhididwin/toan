@@ -159,6 +159,30 @@ $$(\sin x)^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$$
 
 $$(\cos x)^{(n)} = \cos\left(x + \frac{n\pi}{2}\right)$$
 
+**Để hợp pháp hóa nó, bạn hãy dùng Phương pháp Quy nạp toán học (Mathematical Induction) :**
+
+Ví dụ :
+
+Với $n = 1$: $y' = \cos x = \sin\left(x + \frac{\pi}{2}\right)$ (mệnh đề đúng).
+
+Giả sử mệnh đề đúng đến cấp $k$ ($k \ge 1$), tức là:
+
+$$y^{(k)} = \sin\left(x + \frac{k\pi}{2}\right)$$
+
+Ta cần chứng minh mệnh đề cũng đúng với cấp $k + 1$. Thật vậy, lấy đạo hàm của $y^{(k)}$, ta có:
+
+$$y^{(k+1)} = \left[ y^{(k)} \right]' = \left[ \sin\left(x + \frac{k\pi}{2}\right) \right]' = \cos\left(x + \frac{k\pi}{2}\right)$$
+
+Áp dụng công thức phụ chéo lượng giác: $\cos \alpha = \sin\left(\alpha + \frac{\pi}{2}\right)$, ta được:
+
+$$y^{(k+1)} = \sin\left(x + \frac{k\pi}{2} + \frac{\pi}{2}\right) = \sin\left(x + \frac{(k+1)\pi}{2}\right)$$
+
+Theo nguyên lý quy nạp, công thức đúng với mọi $n \in \mathbb{N}^*$.
+
+$$\Longrightarrow y^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$$
+
+
+
 2. Đối với $\tan x$ và $\cot x$:
 
 Autonomous Form:
