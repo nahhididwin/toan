@@ -19,6 +19,7 @@ $$f^{(n)}(x) = \alpha(\alpha-1)(\alpha-2)...(\alpha-n+1)x^{\alpha-n}$$
 
 # PHÉP CHIA/PHÂN SỐ THÀNH PHÉP NHÂN, CHUẨN HÓA PHÂN SỐ
 
+**Đây là phần khó nhằn nhất, trong khi các phần khác thì rất đơn giản**
 
 
 Bằng cách áp dụng (nhân nghịch đảo tương đương với phép chia) $G_1 \cdot \frac{1}{G_2} = G_1 \cdot G_2^{-1}$, cấu trúc phân số $\frac{u}{v}$ sẽ được chuẩn hóa thành:
