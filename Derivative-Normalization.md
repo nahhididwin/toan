@@ -39,10 +39,42 @@ Công thức lõi: $(\ln x)' = x^{-1}$
 
 # CHUẨN HÓA LƯỢNG GIÁC (TUẦN HOÀN)
 
+1. Đối với $\sin x$ và $\cos x$:
 
 
+Việc đạo hàm thực chất chỉ là việc dịch chuyển đồ thị về bên trái một góc $\frac{\pi}{2}$.
+
+Công thức lõi:
+
+$$(\sin x)' = \sin\left(x + \frac{\pi}{2}\right)$$
+
+$$(\cos x)' = \cos\left(x + \frac{\pi}{2}\right)$$
+
+Đạo hàm bậc cao ($n$): Không cần suy nghĩ về dấu, cứ cộng dồn pha.
+
+$$(\sin x)^{(n)} = \sin\left(x + \frac{n\pi}{2}\right)$$
+
+$$(\cos x)^{(n)} = \cos\left(x + \frac{n\pi}{2}\right)$$
+
+2. Đối với $\tan x$ và $\cot x$:
+
+Autonomous Form:
 
 
+Công thức lõi:
+
+$$(\tan x)' = 1 + \tan^2 x$$
+
+
+$$(\cot x)' = -(1 + \cot^2 x)$$
+
+Lợi thế: Khi tính đạo hàm bậc 2 của $\tan x$, bạn coi nó như một đa thức đại số $u^2$, đạo hàm :
+
+$(\tan x)'' = (1 + \tan^2 x)' = 2\tan x \cdot (1+\tan^2 x)$
+
+Bạn hoàn toàn ở lại trong không gian của hàm $\tan$, không bị nhảy sang không gian của $\cos$.
+
+ 
 
 
 
