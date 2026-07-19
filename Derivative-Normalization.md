@@ -17,7 +17,7 @@ Lợi thế khi đạo hàm bậc cao ($n$):
 
 $$f^{(n)}(x) = \alpha(\alpha-1)(\alpha-2)...(\alpha-n+1)x^{\alpha-n}$$
 
-# PHÉP CHIA/PHÂN SỐ THÀNH PHÉP NHÂN
+# PHÉP CHIA/PHÂN SỐ THÀNH PHÉP NHÂN, CHUẨN HÓA PHÂN SỐ
 
 
 
@@ -60,6 +60,11 @@ $$= -2(x^2 + 1)^{-2} + 8x^2(x^2 + 1)^{-3}$$
 
 
 
+Tuy nhiên, thực tế dù đã đơn giản hơn, nhưng nó vẫn quá phức tạp.
+
+**Nếu chấp nhận sử dụng những kỹ thuật "lạ" hơn nữa thì bạn có thể đọc tiếp, tôi có cung cấp 1 giải pháp khác :**
+
+...
 
 
 
