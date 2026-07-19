@@ -63,7 +63,7 @@ $$= -2(x^2 + 1)^{-2} + 8x^2(x^2 + 1)^{-3}$$
 
 Tuy nhiên, thực tế dù đã đơn giản hơn, nhưng nó vẫn quá phức tạp.
 
-**Nếu chấp nhận sử dụng những kỹ thuật "lạ" hơn nữa thì bạn có thể đọc tiếp, tôi có cung cấp 1 giải pháp khác :**
+**Nếu chấp nhận sử dụng những kỹ thuật "lạ" thì bạn có thể đọc tiếp, tôi có cung cấp 1 giải pháp khác :**
 
 **CHUYỂN DẠNG ĐƯỜNG THẲNG :**
 
@@ -85,7 +85,39 @@ Rút $f^{(n)}$ ra, ta được :
 
 $$f^{(n)} = \frac{1}{v} \left[ u^{(n)} - \sum_{k=0}^{n-1} \binom{n}{k} f^{(k)} v^{(n-k)} \right]$$
 
+**Trong môi trường tự luận, tôi khuyến khích bạn nên thử dùng cách này :**
 
+Giả sử đề bài yêu cầu tính đạo hàm đến cấp $n$ (với $n$ là một số cụ thể như 2, 3, 4...) của hàm số $f(x) = \frac{u}{v}$.
+
+Bước 1: Khởi tạo dạng phẳng (Tuyến tính hóa)
+
+Tập xác định: $D = ...$
+
+Ta có: $f(x) = \frac{u}{v} \Longrightarrow f(x) \cdot v = u \quad (1)$
+
+Bước 2: Đạo hàm cấp 1
+
+Đạo hàm hai vế của $(1)$ theo biến $x$, áp dụng quy tắc đạo hàm của tích:
+
+$$f'(x) \cdot v + f(x) \cdot v' = u'$$
+
+Từ đây, thế các giá trị $u', v'$ đã biết vào và rút ra biểu thức thu gọn của $f'(x)$.
+
+Bước 3: Đạo hàm cấp 2
+
+Tiếp tục đạo hàm hai vế biểu thức vừa có:
+
+$$\left[ f'(x) \cdot v \right]' + \left[ f(x) \cdot v' \right]' = u''$$
+
+$$\Longrightarrow f''(x) \cdot v + f'(x) \cdot v' + f'(x) \cdot v' + f(x) \cdot v'' = u''$$
+
+$$\Longrightarrow f''(x) \cdot v + 2f'(x) \cdot v' + f(x) \cdot v'' = u''$$
+
+Điền kết quả $f(x)$ và $f'(x)$ đã tính ở các bước trước vào phương trình trên để suy ra $f''(x)$.
+
+Bước 4: Các cấp tiếp theo ($n=3, 4...$)
+
+Cứ tiếp tục đạo hàm phẳng hai vế một cách tuần tự. Cấu trúc lặp Leibniz sẽ tự động ẩn giấu dưới các hệ số đại số ($2, 3, 4, 6...$) khi bạn gom các số hạng giống nhau lại.
 
 
 # CHUẨN HÓA MŨ VÀ LOGARIT (SIÊU VIỆT)
